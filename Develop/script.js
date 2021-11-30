@@ -1,30 +1,12 @@
 // Assignment code here
-
-
-var randomGenerateLetter = function () {
-  return Math.floor(Math.random() * 26);
-};
-let getRandomNumber = function () {
-  return String.fromCharCode(Math.floor(Math.random() * 10) + 48);
-};
-let getRandomLower = function() {
-  return String.fromCharCode(randomGenerateLetter() + 97);
-}
-let getRandomUpper = function() {
-  return String.fromCharCode(randomGenerateLetter() + 65);
-}
-let getRandomSymbol = function() {
-  const symbols = "!@#$%^&*(){}[]=<>/,.";
-  return symbols[Math.floor(Math.random() * symbols.length)];
+const keys = {
+lower: "abcdefghijklmnopqrstuvwxyz",
+upper: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+number: "0123456789",
+symbol: "!@#$%^&*(){}[]=<>/,.",
 }
 
-const randomFunc = {
-lower: getRandomLower(),
-upper: getRandomUpper(),
-number: getRandomNumber(),
-symbol: getRandomSymbol(),
-}
-console.log(randomFunc);
+console.log(keys);
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -55,8 +37,6 @@ function generatePassword() {
   //generate password
 
   for (i = 0; i < parseInt(length); i += typesCount){
-    typesArr
-
     };
 
   //display generated password
