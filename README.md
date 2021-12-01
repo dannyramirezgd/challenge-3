@@ -8,7 +8,7 @@ The program then returns the generatedPassword string onto the elementid #passwo
 
 ## Prompts
 - Please enter the number of characters you want for your new password. Characters must be more than 8 but fewer than 128
--- If user inputs a number smaller than 8 or larger than 128, the user is reprompted
+  - If user inputs a number smaller than 8 or larger than 128, the user is reprompted
 - Do you want lowercase characters in your password? 
 - Do you want uppercase characters in your password? 
 - Do you want numeric characters in your password? 
