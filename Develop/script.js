@@ -1,12 +1,34 @@
 // Assignment code here
+let keys = {
+lower: "",
+upper: "",
+number: "",
+symbol: "",
+}
+
+let keys.lower = function() {
+  for (i = 0; i <= 26; i++){
+    return String.fromCharCode(Math.floor((Math.random() * 26) + 97));
+  }
+};
+var upper = function() {
+  return String.fromCharCode(Math.floor((Math.random() * 26) + 65));
+};
+var number = function() {
+  return String.fromCharCode(Math.floor((Math.random() * 10) + 48));
+};
+var symbolPart1 = function(){
+  return String.fromCharCode(Math.floor((Math.random() * 16) + 32));
+};
+var symbolPart2 = function(){
+  return String.fromCharCode(Math.floor((Math.random() * 7) + 58));
+}
+var symbolPart3 = function(){
+  return String.fromCharCode(Math.floor((Math.random() * 6) + 91));
+}
 
 //Create an object with all possible characters inside strings
-const keys = {
-lower: "abcdefghijklmnopqrstuvwxyz",
-upper: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-number: "0123456789",
-symbol: "!@#$%^&*(){}[]=<>/,.",
-}
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
