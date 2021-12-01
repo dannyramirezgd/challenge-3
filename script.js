@@ -46,15 +46,19 @@ const keys = {
     var passwordCriteria = "";
     if(lowerCase) {
       passwordCriteria = passwordCriteria.concat(keys.lower);
+      window.alert("You have selected lowercase characters for your password!")
     };
     if(upperCase){
       passwordCriteria = passwordCriteria.concat(keys.upper);
+      window.alert("You have selected uppercase characters for your password!")
     };
     if(numbers){
       passwordCriteria = passwordCriteria.concat(keys.number);
+      window.alert("You have selected numeric characters for your password!")
     };
     if(special){
       passwordCriteria = passwordCriteria.concat(keys.symbol);
+      window.alert("You have selected special characters for your password!")
     };
   
     //iterate a random character from the new string "passwordCriteria" as many times as the value of "length" and then return the value 
