@@ -14,4 +14,4 @@
 - Do you want numeric characters in your password? 
 - Do you want special characters in your password? 
 
-[![GIF of Password Generator]()]
+[![GIF of Password Generator](https://github.com/dannyramirezgd/challenge-3/blob/main/Develop/Password%20Generator.gif)]()
