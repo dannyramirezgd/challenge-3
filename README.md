@@ -1,4 +1,9 @@
 # Password Generator Starter Code
+
+## Website
+
+https://dannyramirezgd.github.io/challenge-3/
+
 ## Description
 - An empty var "generatedPassword" is created.
 - The user is presented with a "Generate Password" button that when pressed asks the user several prompts.
